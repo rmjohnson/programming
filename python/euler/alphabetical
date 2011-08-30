@@ -1,0 +1,18 @@
+words = []
+while 1:
+    word = raw_input('enter word ("done" to finish) :')
+    if word == 'done':
+        break
+        words.append(word)
+
+def sort_alpha(a, b):
+    if a.lower() < b.lower():
+        return -1
+    elif a.lower() > b.lower():
+        return 1
+    else:
+        return 0
+
+words.sort(sort_alpha)
+
+print words
