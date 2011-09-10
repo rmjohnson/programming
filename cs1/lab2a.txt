@@ -1,0 +1,33 @@
+Specs
+Whole Units.
+Income Tax = 6%
+SS Tax = 5.5%
+Sales Person name, first and last.
+0-25 widgets = $15.00
+26-50 widgets = $10.50
+50 > widgets = $7.25
+< 100 widgets sold = 5% commission
+>= 100 widgets sold = 12$ commission
+
+Output Format
+Name: Joe Jones
+Amount Sold: 205
+Gross Pay: $178.35
+-------------------
+Income Tax: $10.701
+SS Tax: $9.80925
+-------------------
+Net Pay: $157.83975
+
+Variables
+int sold;
+float gross, incometax, sstax, netpay, incometaxpercent = .06, sstaxpercent = .055;
+string firstname, lastname;
+
+Algorithm Design
+1. Gather input from user (amount sold, first name and last name)
+2. Use if statements to find cost per widget.
+3. Use cost per widget and commission amount based off amount sold to calculate the gross pay.
+4. Calculate taxes (social security and income tax) based off of incometaxpercent, sstaxpercent, and gross pay.
+5. Subtract taxes from gross pay to calculate the net pay.
+6. Output all information using the format provided above.
