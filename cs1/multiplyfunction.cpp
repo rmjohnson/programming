@@ -3,6 +3,9 @@
 using namespace std;
 
 
+int multiply(int, int);
+
+
 int main() //START OF MAIN FUNCTION
 {
 	/////////////
@@ -20,10 +23,15 @@ int main() //START OF MAIN FUNCTION
 	cout << "\nPlease enter the second integer to be multiplied: "; //Prompt the user for the second number
 	cin >> num2; //Get input for second number
 	
-	result = num1*num2; //Multiply the numbers together
+	result = multiply(num1,num2); //Multiply the numbers together
 
 	cout << "\n" << num1 << " * " << num2 << " = " << result; //The final output in the form x * y = z
 
 	return 0;
  
 } //END OF MAIN FUNCTION
+
+int multiply(int pnum1, int pnum2)
+{
+	return pnum1*pnum2;
+}
