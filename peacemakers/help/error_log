@@ -1,0 +1,24 @@
+[10-Apr-2009 13:56:45] PHP Warning:  include(connect.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rjsouth/public_html/help/index.php on line 9
+[10-Apr-2009 13:56:45] PHP Warning:  include(connect.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rjsouth/public_html/help/index.php on line 9
+[10-Apr-2009 13:56:45] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rjsouth/public_html/help/index.php on line 9
+[10-Apr-2009 13:56:45] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'rjsouth'@'localhost' (using password: NO) in /home/rjsouth/public_html/help/index.php on line 10
+[10-Apr-2009 13:56:45] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/rjsouth/public_html/help/index.php on line 10
+[10-Apr-2009 13:57:01] PHP Warning:  include(connect.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rjsouth/public_html/help/index.php on line 9
+[10-Apr-2009 13:57:01] PHP Warning:  include(connect.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/rjsouth/public_html/help/index.php on line 9
+[10-Apr-2009 13:57:01] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rjsouth/public_html/help/index.php on line 9
+[10-Apr-2009 13:57:01] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'rjsouth'@'localhost' (using password: NO) in /home/rjsouth/public_html/help/index.php on line 10
+[10-Apr-2009 13:57:01] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/rjsouth/public_html/help/index.php on line 10
+[10-Apr-2009 14:10:29] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/rjsouth/public_html/help/request.php on line 19
+[10-Apr-2009 14:10:47] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/rjsouth/public_html/help/request.php on line 19
+[10-Apr-2009 14:10:48] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/rjsouth/public_html/help/request.php on line 19
+[10-Apr-2009 14:10:54] PHP Parse error:  syntax error, unexpected $end in /home/rjsouth/public_html/help/request.php on line 23
+[10-Apr-2009 14:10:55] PHP Parse error:  syntax error, unexpected $end in /home/rjsouth/public_html/help/request.php on line 23
+[10-Apr-2009 14:11:08] PHP Parse error:  syntax error, unexpected $end in /home/rjsouth/public_html/help/request.php on line 25
+[10-Apr-2009 14:11:09] PHP Parse error:  syntax error, unexpected $end in /home/rjsouth/public_html/help/request.php on line 25
+[10-Apr-2009 14:11:09] PHP Parse error:  syntax error, unexpected $end in /home/rjsouth/public_html/help/request.php on line 25
+[27-Apr-2009 21:08:20] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/rjsouth/public_html/help/request.php on line 107
+[01-May-2009 13:19:56] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/rjsouth/public_html/help/request.php on line 225
+[01-May-2009 13:21:43] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/rjsouth/public_html/help/request.php on line 225
+[01-May-2009 13:57:48] PHP Parse error:  syntax error, unexpected '}' in /home/rjsouth/public_html/help/mediation.php on line 268
+[01-May-2009 13:58:14] PHP Parse error:  syntax error, unexpected T_STRING in /home/rjsouth/public_html/help/mediation.php on line 289
+[01-May-2009 14:07:33] PHP Parse error:  syntax error, unexpected '}' in /home/rjsouth/public_html/help/mediation.php on line 288

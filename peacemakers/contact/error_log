@@ -1,0 +1,9 @@
+[19-Aug-2009 10:26:00] PHP Warning:  Division by zero in /home/rjsouth/public_html/header.php on line 92
+[19-Aug-2009 10:26:00] PHP Warning:  Division by zero in /home/rjsouth/public_html/header.php on line 92
+[19-Aug-2009 10:26:00] PHP Warning:  Division by zero in /home/rjsouth/public_html/header.php on line 92
+[19-Aug-2009 10:26:00] PHP Warning:  Division by zero in /home/rjsouth/public_html/header.php on line 92
+[19-Aug-2009 10:26:00] PHP Warning:  Division by zero in /home/rjsouth/public_html/header.php on line 92
+[19-Aug-2009 10:26:00] PHP Warning:  Division by zero in /home/rjsouth/public_html/header.php on line 92
+[19-Aug-2009 10:36:24] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/rjsouth/public_html/header.php on line 92
+[19-Aug-2009 10:36:26] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/rjsouth/public_html/header.php on line 92
+[19-Aug-2009 10:37:48] PHP Parse error:  syntax error, unexpected ';' in /home/rjsouth/public_html/header.php on line 92
