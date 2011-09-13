@@ -31,6 +31,7 @@ int main() //START OF MAIN FUNCTION
  
 } //END OF MAIN FUNCTION
 
+//Mutiply takes two integers and returns their product.
 int multiply(int pnum1, int pnum2)
 {
 	return pnum1*pnum2;
