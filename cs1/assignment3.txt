@@ -1,0 +1,15 @@
+A program is needed to calculate an employee's wages for the week. The program should give the employee the choice of what information they want to see. They can either just view their net pay or they can view an itemized list of all calculations. The company pays overtime (time and a half). Standard taxes are taken out to determine hte net pay. The employee will only enter their first, last name, pay rate and the number of hours that they worked that week. Overtime is over 40 hours.
+
+Just net pay:
+Joe Jones ===> $425.627
+
+All information:
+Name ===> Joe Jones
+Regular Pay ===> $400.00
+Overtime ===> $35.76
+<3<3<3<3<3<3<3<3<3<3<3<3
+Gross Pay ===> $435.76
+Income Tax ===> $(17.25)
+SS Tax ===> $(15.763)
+<3<3<3<3<3<3<3<3<3<3<3<3
+Net Pay ===> $398.725
