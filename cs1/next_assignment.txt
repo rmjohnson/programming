@@ -1,0 +1,23 @@
+User inputs a first and last name of the employee that they want information about.
+Sales people work 5 days a week (5 files). In each file is the name of the sales person and how many widgets they sold that day. 
+The output file will have a table with the results from the other files. 
+Strcmp for string comparision. 
+Input Files(day1.txt,day2.txt,day3.txt,etc):
+Joe Jones 42 11-15-11
+
+
+
+Output to screen:
+Jones, Joe
+Table
+	Column 1: Number of Widgets
+	Column 2: Gross Pay
+	Column 3: Day
+	Column labels should be at the top
+	The rows are days
+Totals table
+	Column 1: Total Sold
+	Column 2: Gross Pay
+	Column 3: Net pay
+	Column labels should be at the top
+dollar amounts should have 2 decimal places

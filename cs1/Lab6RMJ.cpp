@@ -74,6 +74,10 @@ int main() {
 		}
 	}
 
+
+	cout << "Above: " << above << "\n";
+	cout << "Below: " << below << "\n";
+
 	//Check if the data has failed or not
 	if((above - below) > 1 || (below-above) > 1)
 	{

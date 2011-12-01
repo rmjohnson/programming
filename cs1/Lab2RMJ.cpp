@@ -15,7 +15,7 @@ int main()
 
 	cout << "Please input the number of widgets sold: ";
 	cin >> sold;
-
+	
 	if(sold <= 25)
 		cost = 15;
 	else if(sold <= 50)
