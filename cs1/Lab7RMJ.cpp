@@ -88,25 +88,25 @@ int main()
 	netpay = sum(grossPay) - incometax - sstax;
 
 	fprintf(output,"%s, %s\n",lastName.c_str(),firstName.c_str());
-	fprintf(output,"+--------------+-----------+----------+\n");
-	fprintf(output,"| Widgets Sold | Gross Pay |    Date  |\n");
-	fprintf(output,"+--------------+-----------+----------+\n");
+	fprintf(output,"+--------------------+--------------------+----------+\n");
+	fprintf(output,"|    Widgets Sold    |      Gross Pay     |   Date   |\n");
+	fprintf(output,"+--------------------+--------------------+----------+\n");
 	for(int i=0;i < 5;i++)
 	{
 		if(dates[i] != "hi")
 		{
 
-			fprintf(output,"|     %-8.0f | $%-8.2f | %s |\n",widgetsSold[i],grossPay[i],dates[i].c_str());	
-			fprintf(output,"+--------------+-----------+----------+\n");
+			fprintf(output,"|         %-10.0f |       $%-11.2f | %s |\n",widgetsSold[i],grossPay[i],dates[i].c_str());	
+			fprintf(output,"+--------------------+--------------------+----------+\n");
 		}
 	}
 	fprintf(output,"\n");
 	//Totals
-	fprintf(output,"+--------------------+-----------+----------+\n");
-	fprintf(output,"| Total Widgets Sold | Gross Pay | Net Pay  |\n");
-	fprintf(output,"+--------------------+-----------+----------+\n");
-	fprintf(output,"|        %-11.0f | $%-8.2f | $%-7.2f |\n",sum(widgetsSold),sum(grossPay),netpay);
-	fprintf(output,"+--------------------+-----------+----------+\n");
+	fprintf(output,"+--------------------+----------------+---------------+\n");
+	fprintf(output,"| Total Widgets Sold |   Gross Pay    |    Net Pay    |\n");
+	fprintf(output,"+--------------------+----------------+---------------+\n");
+	fprintf(output,"|        %-11.0f |    $%-10.2f |   $%-10.2f |\n",sum(widgetsSold),sum(grossPay),netpay);
+	fprintf(output,"+--------------------+----------------+---------------+\n");
 	
 	printf("Program completed successfully, results are located in \"WidgetReport.txt\".");
 
