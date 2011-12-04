@@ -1,0 +1,4 @@
+TRUCK      PERCENTAGE DAYS USED  FINE TOTAL
+Truck 1    %44.4      9          $400.00
+Truck 2    %37.5      8          $400.00
+Truck 3    %37.5      8          $450.00
