@@ -1,0 +1,18 @@
+We have been asked to write a program that will let the user enter any real number for the coefficients for the following function. Ax^4 + Bx^3 + Cx^2 + Dx + E Then the program must allow the user to enter a value that will be calculated for the function f(x) i.e. what is f(3). They must be able to enter all the values they want. Output is all f(x)s at the end. Array size is 25.
+
+The program must use a function to do the power calculates.
+float pow(float x, float power)
+{
+	for(int i=1;i<power;i++)
+	{
+		x = x*x;
+	}
+	return answer;
+}
+No truncating of decimals.
+If the user enters the coefficient of 0 the functino must never be called for that term. (this will be checked)
+
+The program must display the function prior to the user entering values for x( this is done only once) and it must display subtraction rather than adding negative numbers.
+
+wrong -> f(x) = 4x^4+-2x^3+x^2+5x+-17
+right -> f(x) = 4x^4-2x^3+x^2+5x-17
