@@ -1,3 +1,13 @@
+//Optional Assignment by Ryan Johnson
+//Algorithm Design
+/*
+First the input and output files are opened, then all the variables necessary will be declared (weights for each day, daysFined, daysUsed, truckNum, and totalFine).
+Right after that the headers for the table are fprintf'd to the output file (TRUCK, PERCENTAGE, DAYS USED, and FINE TOTAL). Then a while loop is run until the end
+of the file. Inside of the while loop is a for loop that runs through each piece of data for 1 truck. The weights are collected from the input file and fines necessary
+are calculated. Then all the necessary information (truck number, percentage of days fined, number of days the truck was used, and the total fine amount) is
+fprintf'd to the output file. Finally, the daysFined, and daysUsed variables are reset for the next set of data. The truckNum variable will be increased by 1.
+Finally, a nice message is printed out to the user and the two files (input and output) are closed.
+*/
 #include <iostream>
 #include <fstream>
 #include <stdio.h>
