@@ -27,9 +27,9 @@ public class hash {
 	public static void main(String args[])
 	{
 		hash htable = new hash(3);
-		htable.add("poop");
-		htable.add("peeeeeeeeeeeeee");
-		htable.add("fartz");
+		htable.add("first");
+		htable.add("second");
+		htable.add("third");
 		for(int i = 0; i < htable.size; i++)
 		{
 			System.out.println(htable.table[i]);
