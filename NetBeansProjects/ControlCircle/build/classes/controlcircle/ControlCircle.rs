@@ -1,3 +1,0 @@
-controlcircle.CirclePanel$My_MouseListener
-controlcircle.ControlCircle
-controlcircle.CirclePanel
