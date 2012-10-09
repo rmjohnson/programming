@@ -1,3 +1,0 @@
-minecraft_world.Block
-minecraft_world.Block$Mineral
-minecraft_world.Minecraft_World
