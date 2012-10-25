@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+def prime(x,y)
+=======
 def test_primes(x):
     for y in range(2,int( x**0.5)+1):
         if x%y==0:
@@ -11,3 +14,4 @@ while len(primes) < 10001:
         primes.append(x)
     x += 1
 print primes[-1]
+>>>>>>> 4ad613a82c99a51daaecbb81ffdaa3a234519f0a
