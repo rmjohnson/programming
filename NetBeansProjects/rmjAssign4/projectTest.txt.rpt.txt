@@ -1,0 +1,21 @@
+Project is feasible
+
+Ordering: 1 3 2 4 5 
+Stage 	 Early 	 Late
+1	0	0
+2	12	14
+3	9	9
+4	15	16
+5	17	17
+
+Total Project Time: 17
+
+Activities 	 Early 	 Late
+1	0	8
+2	0	0
+3	12	14
+4	9	11
+5	9	10
+6	9	9
+7	15	16
+Critical Activities: 2, 6
